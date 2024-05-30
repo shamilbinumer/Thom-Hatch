@@ -1,0 +1,2221 @@
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Jersey+25&family=Jost:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Jersey+25&family=Jost:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Jersey+25&family=Jost:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Saira+Stencil+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Jersey+25&family=Jost:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Saira+Stencil+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.main-page{
+    /* background-color: brown; */
+    width: 100%;
+    height: auto;
+}
+
+
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    color: #fff;
+    background-color: #E9AB32;
+    border: none;
+    border-radius: 50%;
+    opacity: 0; /* Initially hidden */
+    transition: opacity 0.5s ease; /* Smooth opacity transition */
+  }
+
+  .list-group-item.active {
+    color: #E9AB32; /* Active color */
+}
+
+
+
+  #back-to-top:hover {
+    opacity: 1; /* Button opacity on hover */
+  }
+  
+ .navbarrs{
+    width: 100%;
+    /* background-color: aqua; */
+    height: 10px;
+    justify-content: space-around;
+display: flex !important;
+background-color: #FFF4DE;
+align-items: center;
+    flex-wrap: wrap;
+
+}
+.image{
+    width: 100px;
+height: 100px;
+/* background-color: azure; */
+}
+.fonttts{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.left-side
+{
+    width: 20%;
+    /* background-color: blueviolet; */
+
+}
+.right-side a{
+    font-family: "ABeeZee";
+font-size: 16px;
+font-weight: 400;
+color: #E9AB32 !important;
+text-decoration: none;
+text-align: left;
+
+}
+.right-side
+{
+    width: 50%;
+} 
+    
+/*  ..........................................................hero............................................ */
+.hero-bodyy{
+    width: 100%;
+    height: 650px;
+    background-color: #FFF4DE;
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+.left-hero{
+ width: 50%;
+ /* background-color: rgb(174, 174, 243); */
+ padding: 230px;
+ height: 650px;
+ text-align: center;
+text-align: center;
+
+
+}
+.right-hero{
+    width: 50%;
+    height: 650px;
+    /* background-color: #86868B; */
+    /* overflow: hidden; */
+   text-align: center;
+}
+.tom-headings{
+    /* margin: auto; */
+    width: 452px;
+
+   height: 129px;
+   /* background-color: #E9AB32; */
+  
+}
+.tom-heading p{
+    font-family: "Joti One", serif;
+    font-size: 82px;
+    font-weight: 400;
+    line-height: 55px;
+    text-align: center;
+    color: #1D1D1F;
+    
+}
+.tom-sub-heading p{
+    font-family: "Joti One";
+    font-size: 25px;
+    color: #519A25;
+    font-weight: 400;
+    line-height: 55px;
+    text-align: center;
+    
+}
+.heading-3{
+    width: 450px;
+    height: 39px;
+    top: 432px;
+    left: 297px;
+    gap: 0px;
+    opacity: 0px;
+    
+
+}
+.heading-3 p{
+    font-family: "Saira Stencil One", sans-serif;
+font-size: 25px;
+font-weight: 400;
+line-height: 39.35px;
+text-align: center;
+color: #86868B;
+}
+.imgs-div{
+    width: 408px;
+height: 612px;
+top: 38px;
+left: 776px;
+/* margin: auto; */
+margin-left: 100px;
+margin-top: 38px;
+gap: 0px;
+border: 0px 0px 1px 0px;
+opacity: 0px;
+/* background-color: rgb(193, 193, 10); */
+}
+
+@media(min-width:300px) and (max-width:575px) {
+    .hero-bodyy{ width: 100%;
+        height: auto;
+  
+      
+    
+    }
+    .left-hero{
+     width: 100%;
+     /* background-color: rgb(174, 174, 243); */
+     margin: auto;
+     padding: 0;
+ padding-top: 50px;
+     height: 650px;
+     height: auto;
+     text-align: center !important;
+     /* margin: auto; */
+     margin-top: 100px;
+    
+
+    
+    
+    }
+    .right-hero{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .tom-headings{
+        /* margin: auto; */
+        width: 100%;
+    
+       height: 129px;
+  
+      
+    }
+    .tom-heading p{
+        /* font-family: "Joti One", serif; */
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 55px;
+        text-align: center;
+        color: #1D1D1F;
+        
+    }
+    .tom-sub-heading{
+        width: 100%;
+    }
+    .tom-sub-heading p{
+
+        font-size: 25px;
+   
+        font-weight: 300;
+        line-height: 30px;
+      
+        
+    }
+    .heading-3{
+        width: 100%;
+        height: auto;
+    
+        
+    
+    }
+    .heading-3 p{
+        /* font-family: "Saira Stencil One", sans-serif; */
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25.35px;
+   
+    }
+    .imgs-div{
+        width: 90%;
+       height: auto;
+     padding-top: 50px;
+    left: 0;
+    margin: auto !important;
+    margin-left: 0px;
+   
+  
+    /* background-color: rgb(193, 193, 10); */
+    }
+    .imgs-div img{
+    width: 100%;
+    }
+
+
+
+.main-page{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+  }
+
+
+
+  @media(min-width:576px) and (max-width:768px) {
+    .hero-bodyy{ width: 100% !important;
+        height: auto !important;
+  
+      
+    
+    }
+    .left-hero{
+     width: 100%;
+     /* background-color: rgb(174, 174, 243); */
+     margin: auto;
+     padding: 0;
+ padding-top: 50px;
+     height: 650px;
+     height: auto;
+     text-align: center !important;
+     /* margin: auto; */
+     margin-top: 100px;
+    
+
+    
+    
+    }
+    .right-hero{
+        width: 100%;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+    .tom-headings{
+        /* margin: auto; */
+        width: 100%;
+    
+       height: 129px;
+  
+      
+    }
+    .tom-heading p{
+        /* font-family: "Joti One", serif; */
+        font-size: 50px;
+        font-weight: 400;
+        line-height: 55px;
+        text-align: center;
+        color: #1D1D1F;
+        
+    }
+    .tom-sub-heading{
+        width: 100%;
+    }
+    .tom-sub-heading p{
+
+        font-size: 25px;
+   
+        font-weight: 300;
+        line-height: 30px;
+      
+        
+    }
+    .heading-3{
+        width: 100%;
+        height: auto;
+    
+        
+    
+    }
+    .heading-3 p{
+        /* font-family: "Saira Stencil One", sans-serif; */
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 25.35px;
+   
+    }
+    .imgs-div{
+        width: 90%;
+       height: auto;
+     padding-top: 50px;
+    left: 0;
+    margin: auto !important;
+    margin-left: 0px;
+   
+  
+    /* background-color: rgb(193, 193, 10); */
+    }
+    .imgs-div img{
+    width: 100%;
+    }
+
+
+
+.main-page{
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+
+  }
+/* ............................................................hero........................................... */
+
+/* ..........................................................image-scroll........................................ */
+.imagge-scroll-div{
+    width: 100%;
+    height:200px ;
+    /* background-color: aquamarine; */
+   padding: 45px !important;
+
+}
+.images-scrolling-sub-div{
+    width: 100%;
+    /* background-color: #86868B; */
+    margin: auto;
+   display: flex;
+   flex-wrap: nowrap;
+    height: 120px;
+ 
+
+}
+.img-scroll-items{
+    /* background-color: #E9AB32; */
+    margin: auto;
+    width: 210px;
+height: 120px;
+top: 690px;
+left: 100px;
+overflow: hidden;
+gap: 0px;
+border-right: 1px solid #0000000D;
+opacity: 0px;
+
+}
+
+  .images-scrolling-sub-div {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth transition effect */
+  }
+  
+  .img-scroll-items {
+    flex: 0 0 auto;
+    margin-right: 10px; /* Adjust spacing between images */
+  }
+  
+  .img-scroll-items img {
+    /* width: 100%; Ensure images fill their containers */
+  }
+  
+  
+/* ...........................................................end................................................ */
+/* ....................................................adverrtaisment........................................... */
+
+.advertaisment{
+    width: 100%;
+height: 700px;
+background-color: #F6F6F6;
+padding-top: 65px;
+
+}
+.advertaisment-body{
+    width: 88%;
+    /* background-color: aqua; */
+    margin: auto !important;
+    height:auto ;
+  gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.left-fashion{
+    width: 47%;
+    height: 580px;
+    top: 910px;
+    /* background-color: rebeccapurple; */
+    left: 100px;
+    margin: 0px !important;
+    gap: 0px;
+   
+    overflow: hidden !important;
+    opacity: 0px;
+    
+}
+.right-fashion{
+    width: 47%;
+    margin: auto;
+    height: 580px;
+    overflow: hidden;
+    top: 910px;
+    /* background-color: rebeccapurple; */
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+}
+.left-fashion img{
+    /* width: 100%; */
+}
+.font-fashion{
+    width: 219px;
+height: 100px;
+position: relative;
+top: 370px;
+right: -330px;
+text-align: center;
+/* background-color: #519A25; */
+
+
+
+}
+
+.font-fashion p{
+    font-family: "Joti One";
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    
+}
+.fashion-img{
+ position: absolute;
+
+}
+.font1-fashion{
+    width: 219px;
+    height: 100px;
+    position: relative;
+    top: 50px;
+    right: -320px;
+    text-align: center;
+  
+    
+}
+.font1-fashion p{
+    font-family: "Joti One";
+    font-size: 20px;
+   
+    color: #E9AB32;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    
+    
+}
+
+.fashion1-img{
+    position: absolute;
+   
+   }
+
+
+   @media(min-width:300px) and (max-width:575px) {
+    .imagge-scroll-div{
+        width: 100%;
+        height:auto ;
+        margin: auto;
+        /* background-color: aquamarine; */
+ 
+       padding: 10px !important;
+    
+    }
+    .images-scrolling-sub-div{
+        width: 90%;
+    /* background-color: #E9AB32; */
+         margin: auto !important;
+        padding: 0px !important;
+             margin-top: 10px !important;
+       overflow: hidden;
+    
+        height: 120px;
+     
+    
+    }
+    .img-scroll-items{
+        /* background-color: #E9AB32; */
+        margin: auto;
+        width: 10px;
+    height: 120px;
+    top: 690px;
+    left: 100px;
+    padding: 0 !important;
+    margin: o !important;
+    /* overflow: hidden; */
+    gap: 0px;
+    border-right: 1px solid #0000000D;
+    opacity: 0px;
+    
+    }
+    
+      .images-scrolling-sub-div {
+        display: flex;
+        transition: transform 0.5s ease; /* Smooth transition effect */
+      }
+      
+    
+      
+      .img-scroll-items img {
+        /* width: 100%; Ensure images fill their containers */
+        width: 100%;
+        margin: 0px;
+      }
+      
+      .img-scroll-items {
+        width: 50% !important; 
+        margin: 0px !important;/* Display two images side by side */
+      }
+
+
+
+
+
+
+
+
+
+      .advertaisment{
+        width: 100%;
+    height: auto !important;
+    background-color: #F6F6F6;
+    padding: 0px !important;
+    margin: 0px !important;
+    padding-top: 40px !important;
+    
+    }
+    .advertaisment-body{
+        width: 100%;
+        padding: 0px;
+        margin: 0px !important;
+          
+        /* background-color: aqua; */
+               height: auto !important;;
+
+     
+    }
+    .left-fashion{
+        width: 88%;
+        height: 350px !important;
+       /* background-color: #519A25; */
+       margin: auto !important;
+       overflow: hidden;
+    }
+    .right-fashion{
+        width: 100%;
+        margin: 0 !important;
+      
+        height: 350px
+        ;
+    
+     
+        /* background-color: rebeccapurple; */
+       
+    }
+ 
+    .font-fashion{
+        width: 119px;
+    height: 100px;
+    position: relative;
+    top: 180px !important;
+    right: -170px;
+    text-align: center;
+ 
+    
+    
+    
+    }
+    
+    .font-fashion p{
+        font-family: "Joti One";
+        font-size: 15px;
+        color: #FFFFFF;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        
+    }
+    .fashion-img img{
+     /* position: absolute; */
+     width: 91%;
+  
+    }
+    .fashion-img{
+        position: absolute;
+        width: 90%;
+        
+    }
+    .font1-fashion{
+        width: 119px;
+        height: 100px;
+        position: relative;
+        top: 30px;
+        right: -200px;
+        text-align: center;
+      
+        
+    }
+    .font1-fashion p{
+        font-family: "Joti One";
+        font-size: 15px;
+       
+        color: #E9AB32;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        
+        
+    }
+    
+    .fashion1-img img{
+        width: 100% !important;
+      
+       
+       }
+       .fashion1-img{
+        width: 82%;
+        margin-left: 20px !important;
+        /* background-color: #E9AB32; */
+        /* margin: auto !important; */
+       }
+   }
+
+
+   
+
+   @media(min-width:576px) and (max-width:768px) {
+    .imagge-scroll-div{
+        width: 100%;
+        height:200px !important ;
+        margin: auto;
+        /* background-color: aquamarine; */
+          padding: 0px !important;
+       overflow: visible;
+    
+    }
+    .images-scrolling-sub-div{
+        width: 90%;
+    /* background-color: #E9AB32; */
+         margin: auto !important;
+        padding: 0px !important;
+             margin-top: 10px !important;
+             overflow: visible !important;
+    
+        height: 140px !important;
+     
+    
+    }
+    .img-scroll-items{
+        /* background-color: #E9AB32; */
+        margin: auto;
+        width: 10px;
+    height: 120px;
+  padding-top: opx !important;
+    padding: 0 !important;
+    margin: o !important;
+    overflow: visible !important;
+    gap: 0px;
+    border-right: 1px solid #0000000D;
+    opacity: 0px;
+    
+    }
+    
+      .images-scrolling-sub-div {
+        display: flex;
+        transition: transform 0.5s ease; /* Smooth transition effect */
+      }
+      
+    
+      
+      .img-scroll-items img {
+        /* width: 100%; Ensure images fill their containers */
+        width: 100%;
+        margin: 0px;
+      }
+      
+      .img-scroll-items {
+        width: 50% !important; 
+        margin: 0px !important;/* Display two images side by side */
+      }
+
+
+
+
+
+
+
+
+
+      .advertaisment{
+        width: 100%;
+    height: auto !important;
+    background-color: #F6F6F6;
+    padding: 0px !important;
+    margin: 0px !important;
+    padding-top: 40px !important;
+    
+    }
+    .advertaisment-body{
+        width: 100%;
+        padding: 0px;
+        margin: 0px !important;
+          
+        /* background-color: aqua; */
+               height: auto !important;;
+
+     
+    }
+    .left-fashion{
+        width: 88%;
+        height: 70vh !important;
+       /* background-color: #519A25; */
+
+       margin: auto !important;
+       overflow: hidden;
+    }
+    .right-fashion{
+        width: 100%;
+        margin: 0 !important;
+      
+        height: 70vh !important;
+        ;
+    
+     
+        /* background-color: rebeccapurple; */
+       
+    }
+ 
+    .font-fashion{
+        width: 200px;
+    height: 100px;
+    position: relative;
+    top: 61% !important;
+    right: -64%;
+    text-align: center;
+ 
+    
+    
+    
+    }
+    
+    .font-fashion p{
+      
+        font-size: 30px;
+        color: #FFFFFF;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        
+    }
+    .fashion-img img{
+     /* position: absolute; */
+     width: 94%;
+  
+    }
+    .fashion-img{
+        position: absolute;
+        width: 90%;
+        
+    }
+    .font1-fashion{
+        width: 200px;
+        height: 100px;
+        position: relative;
+        top: 9% !important;
+        right: -60%;
+        text-align: center;
+      
+        
+    }
+    .font1-fashion p{
+        font-size: 30px;
+        color:#E9AB32;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0.05em;
+        text-align: center;
+        
+        
+    }
+    
+    .fashion1-img img{
+        width: 100% !important;
+      
+       
+       }
+       .fashion1-img{
+        width: 85%;
+        margin-left: 41px !important;
+        /* background-color: #E9AB32; */
+        /* margin: auto !important; */
+       }
+   } 
+    /* ...........................................................end................................................ */
+    /* ....................................................adverrtaisment........................................... */
+    
+    
+/* ......................................................end....................................................... */
+
+
+
+
+
+/* .................................................new-arrivals..................................... */
+.new-arrivals-body{
+    width: 100%;
+height: 700px;
+ /* background-color: #519A25; */
+ padding-top: 25px;
+
+}
+
+
+.new-arrivval-main-heading{
+    width: 406px !important;
+    margin: auto;
+height: 40px;
+
+ 
+
+}
+.new-arrivval-main-heading p{
+    font-family: "Joti One";
+font-size: 30px;
+font-weight: 400;
+line-height: 40.02px;
+color: #86868B;
+text-align: center;
+
+
+}
+.new-arrivals-sub-headings{
+    width: 446px !important;
+justify-content: space-around;
+height: auto;
+/* background-color: #86868B; */
+display: flex;
+flex-wrap: wrap;
+gap: 10px;
+margin: auto;
+padding-top: 20px;
+
+
+}
+.new-arrivals-sub-headings a{
+
+    text-decoration: none;
+    font-family: "Lato";
+font-size: 25px;
+font-weight: 300;
+line-height: 30px;
+text-align: center;
+color: #86868B;
+
+
+}
+.all-ffontt{
+    color: #E9AB32 !important;
+}
+.carrds-arrivals{
+    width: 90% !important;
+height: auto !important;
+margin: auto;
+/* background-color: #86868B !important; */
+padding-top: 60px;
+}
+.carrds-body{
+    width: 293px;
+height: 500px;
+/* background-color: #E9AB32; */
+margin: auto;
+
+
+}
+.img-cardd{
+    width: 273px;
+    height: 400px;
+    /* background-color: aquamarine; */
+    overflow: hidden;
+    margin: auto;
+}
+.img-cardd  img{
+    width: 100%;
+}
+.prod-details{
+    width: 273px;
+    height: 100px;
+    /* background-color: #519A25; */
+   margin: auto;
+  
+
+}
+.prod-type{
+    width: 39px;
+height: 24px;
+margin-bottom: 5px;
+
+}
+.prod-type p{
+    font-family: "Lato";
+font-size: 20px;
+font-weight: 300;
+line-height: 24px;
+text-align: center;
+color: #86868B;
+}
+.prod-name{
+    width: 150px;
+height: 24px;
+/* background-color: #E9AB32; */
+margin-bottom: 10px;
+
+}
+.prod-name p{
+    font-family: "Lato" !important;
+font-size: 20px;
+font-weight: 300;
+line-height: 24px;
+color: #1D1D1F;
+
+}
+
+
+    .slick-prev {
+        left: 10px;
+        background-color: #000000;
+    }
+    .slick-next {
+        right: 10px;
+    }
+
+
+
+
+
+
+.card-row{
+    width: 100% !important;
+    /* background-color: #86868B; */
+    margin: auto !important;
+}
+
+.order-button{
+    width: 120px;
+height: 30px;
+padding-top: 3px;
+background-color: #1D1D1F;
+text-align: center;
+
+}
+.order-button a{
+    text-decoration: none;
+    font-family: "Lato";
+font-size: 18px;
+font-weight: 300;
+line-height: 21.6px;
+text-align: center !important;
+color: white;
+
+}
+.order-button-simbel{
+    /* background-color: aqua; */
+    height: 30px;
+    width: 70%;
+    align-items: center;
+    /* overflow: hidden; */
+    display: flex;
+    justify-content: space-between;
+
+}
+.simbel{
+    width: 30px;
+height: 30px;
+/* background-color: #000000; */
+
+
+}
+.simbel img{
+    width: 100%;
+}
+
+@media(min-width:300px) and (max-width:575px) {
+    .new-arrivals-body{
+  
+    height: auto !important;
+  
+    
+    }
+    .new-arrivval-main-heading{
+        width: 100% !important;
+   
+
+    
+     
+    
+    }
+    .new-arrivval-main-heading p{
+   
+    font-size: 28px;
+    
+    
+    
+    }
+    .new-arrivals-sub-headings{
+        width: 86% !important;
+    justify-content: space-around;
+    height: auto;
+    /* background-color: #111151; */
+ 
+    gap: 0px;
+  
+    padding-top: 10px;
+    
+    
+    }
+    .new-arrivals-sub-headings a{
+   
+    font-size: 20px;
+ 
+
+    
+    
+    }
+   
+    .carrds-arrivals{
+        width: 100% !important;
+  
+    /* background-color: #86868B !important; */
+    padding-top: 60px;
+    }
+    .carrds-body{
+        width: 293px;
+        margin-bottom: 20px !important;
+    height: 500px;
+    /* background-color: #E9AB32; */
+    margin: auto;
+    
+    
+    }
+    .img-cardd{
+        width: 273px;
+        height: 400px;
+        /* background-color: aquamarine; */
+        overflow: hidden;
+        margin: auto;
+    }
+    .img-cardd  img{
+        width: 100%;
+    }
+    .prod-details{
+        width: 273px;
+        height: 100px;
+        /* background-color: #519A25; */
+       margin: auto;
+      
+    
+    }
+    .prod-type{
+        width: 39px;
+    height: 24px;
+    margin-bottom: 5px;
+    
+    }
+    .prod-type p{
+        font-family: "Lato";
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
+    color: #86868B;
+    }
+    .prod-name{
+        width: 150px;
+    height: 24px;
+    /* background-color: #E9AB32; */
+    margin-bottom: 10px;
+    
+    }
+    .prod-name p{
+        font-family: "Lato" !important;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    color: #1D1D1F;
+    
+    }
+    
+    .order-button{
+        width: 120px;
+    height: 30px;
+    padding-top: 3px;
+    background-color: #1D1D1F;
+    text-align: center;
+    
+    }
+    .order-button a{
+        text-decoration: none;
+        font-family: "Lato";
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 21.6px;
+    text-align: center !important;
+    color: white;
+    
+    }
+    .order-button-simbel{
+        /* background-color: aqua; */
+        height: 30px;
+        width: 70%;
+        align-items: center;
+        /* overflow: hidden; */
+        display: flex;
+        justify-content: space-between;
+    
+    }
+    .simbel{
+        width: 25px;
+    height: 25px;
+    /* background-color: #000000; */
+    
+    
+    }
+    .simbel img{
+        width: 100%;
+    }
+    
+
+    #topselling-column{
+       /* background-color: #519A25; */
+      margin-top: 30px;
+    }
+
+}
+
+
+@media(min-width:576px) and (max-width:768px) {
+    .new-arrivals-body{
+  
+    height: 120vh !important;
+  
+    
+    }
+}
+
+/* ..........................................................trending................... */
+
+
+
+
+
+.trending-body{
+    width: 100%;
+height: 700px;
+padding-top: 70px;
+background-color: #F2F2F2;
+}
+.trending-sub-body{
+    width: 90%;
+    height: auto;
+    /* background-color: #E9AB32; */
+    margin: auto;
+}
+.trending-row{
+    width: 100%;
+    margin: auto;
+ 
+
+}
+.trending-columnn{
+    width: 574px;
+height: 500px;
+background-color: #ffffff;
+margin: auto;
+
+}.trending-heading-section{
+width: 90%;
+height: 140px;
+/* background-color: #F6F6F6; */
+padding-top: 40px;
+margin: auto;
+}
+
+.trending-main-head{
+    font-family: "Joti One";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.68px;
+    color: #86868B;
+    text-align: center;
+    
+
+
+}
+
+.trend-heading-sectionn{
+  width: 100%;
+  height: 90px;
+  /* background-color: #E9AB32; */
+}
+.trend-heading-sectionn p{
+    font-family: "Joti One";
+font-size: 30px;
+font-weight: 400;
+color: #519A25;
+line-height: 40.02px;
+text-align: center;
+
+}
+.trending-offer-head{
+    width: 134px;
+
+      /* background-color: #181611; */
+      margin: auto;
+}
+.trending-offer-head p{
+    font-family: "Joti One";
+font-size: 20px;
+font-weight: 400;
+line-height: 26.68px;
+text-align: center;
+color: #E9AB32;
+
+}
+.trending-img-section{
+    width: 100%;
+    /* background-color: aqua; */
+   /* height: 100vh; */
+    margin: auto;
+}
+.trend-image-banner{
+    width: 240px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0px;
+    height: 261px;
+   /* background-color: #F2F2F2; */
+    
+}
+.trend-image-details{
+    width: 240px;
+    /* overflow: hidden; */
+    height: 70px;
+    /* background-color: blueviolet; */
+    padding-top: 12px;
+}
+.trending-imgs{
+    width: 260px;
+    height: 341px;
+      margin: auto;
+    /* background-color: #a3a3ba; */
+  
+    
+}
+.trend-image-details p{
+    width: 90%;
+/* height: 20px; */
+font-family: "Lato";
+/* background-color: #519A25; */
+font-size: 18px;
+padding: 0px !important;
+margin: 0px !important;
+/* padding-top: 10px; */
+font-weight: 300;
+line-height: 21.6px;
+color: #1D1D1F;
+text-align: left;
+
+}
+.btn-order{
+    width: 120px;
+height: 25px;
+margin-top: 5px !important;
+padding-top: 0px !important;
+background-color:#1D1D1F ;
+text-align: center;
+
+}
+.btn-order a{
+    font-family: "Lato";
+    text-decoration: none;
+    color: white;
+font-size: 15px;
+font-weight: 300;
+line-height: 15px;
+text-align: center !important;
+
+}
+.paragraph-trend{
+    /* background-color: #519A25; */
+    padding-left: 20px;
+    padding-top: 200px;
+    height: auto;
+
+}
+.image-trend
+{
+    /* background-color: #E9AB32; */
+    height: auto;
+}
+.para-section{
+    width: 239px !important;
+height: 120px;
+
+/* background-color: #519A25; */
+}
+.para-section p{
+    font-family: "Lato";
+    color: #86868B;
+font-size: 20px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0.05em;
+text-align: center;
+
+}
+.image-trend{
+ 
+height: 500px;
+top: 2336px;
+left: 915px;
+gap: 0px;
+/* background-color: #519A25; */
+opacity: 0px;
+
+}
+.image-trend img{
+    width: 100%;
+}
+#Top-Selling-Products{
+    padding-top: 30px !important;
+}
+
+@media(min-width:300px) and (max-width:575px) {
+    
+
+.trending-body{
+    width: 100%;
+height: auto !important;
+padding-top: 60px;
+
+}
+.trending-sub-body{
+    width: 90%;
+    height: auto;
+    /* background-color: #E9AB32; */
+    margin: auto;
+}
+.trending-row{
+    width: 100%;
+    margin: auto;
+    height: auto !important;
+ 
+
+}
+.trending-columnn{
+    width: 574px;
+height: auto !important;
+/* background-color: #6c1b1b; */
+margin: auto;
+margin-bottom: 50px;
+
+}.trending-heading-section{
+width: 90%;
+height: 140px;
+/* background-color: #F6F6F6; */
+padding-top: 40px;
+margin: auto;
+}
+
+.trending-main-head{
+    font-family: "Joti One";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.68px;
+    color: #86868B;
+    text-align: center;
+    
+
+
+}
+
+.trend-heading-sectionn{
+  width: 100%;
+  height: 90px;
+  /* background-color: #E9AB32; */
+}
+.trend-heading-sectionn p{
+    font-family: "Joti One";
+font-size: 30px;
+font-weight: 400;
+color: #519A25;
+line-height: 40.02px;
+text-align: center;
+
+}
+.image-trend {
+    height: auto !important;
+}
+.trending-offer-head{
+    width: 134px;
+
+      /* background-color: #181611; */
+      margin: auto;
+}
+.trending-offer-head p{
+    font-family: "Joti One";
+font-size: 20px;
+font-weight: 400;
+line-height: 26.68px;
+text-align: center;
+color: #E9AB32;
+
+}
+.trending-img-section{
+    width: 100%;
+    /* background-color: aqua; */
+   /* height: 100vh; */
+    margin: auto;
+}
+.trend-image-banner{
+    width: 240px;
+    margin: auto;
+    overflow: hidden;
+    padding: 0px;
+    height: 261px;
+   /* background-color: #F2F2F2; */
+    
+}
+.trend-image-details{
+    width: 240px;
+    /* overflow: hidden; */
+    height: 70px;
+    /* background-color: blueviolet; */
+    padding-top: 12px;
+}
+.trending-imgs{
+    width: 260px;
+    height: 341px;
+      margin: auto;
+    /* background-color: #a3a3ba; */
+  
+    
+}
+.trend-image-details p{
+    width: 90%;
+/* height: 20px; */
+font-family: "Lato";
+/* background-color: #519A25; */
+font-size: 18px;
+padding: 0px !important;
+margin: 0px !important;
+/* padding-top: 10px; */
+font-weight: 300;
+line-height: 21.6px;
+color: #1D1D1F;
+text-align: left;
+
+}
+.btn-order{
+    width: 120px;
+height: 25px;
+margin-top: 5px !important;
+padding-top: 0px !important;
+background-color:#1D1D1F ;
+text-align: center;
+
+}
+.btn-order a{
+    font-family: "Lato";
+    text-decoration: none;
+    color: white;
+font-size: 15px;
+font-weight: 300;
+line-height: 15px;
+text-align: center !important;
+
+}
+.paragraph-trend{
+    /* background-color: #519A25; */
+    padding-left: 0px !important;
+    padding-top: 20px;
+
+
+}
+
+.para-section{
+
+        width: 239px !important;
+        height: 120px !important;
+        margin: auto;
+        /* background-color: #519A25; */
+    
+
+/* background-color: #519A25; */
+}
+.para-section p{
+    font-family: "Lato";
+    color: #86868B;
+font-size: 20px;
+font-weight: 300;
+line-height: 24px;
+letter-spacing: 0.05em;
+text-align: center;
+
+}
+
+
+
+
+#back-to-top {
+display: none;
+  }
+
+
+}
+
+@media(min-width:576px) and (max-width:768px) {
+    
+
+    .trending-body{
+        width: 100%;
+    height: auto !important;
+    padding-top: 60px;
+    
+    }
+    .trending-sub-body{
+        width: 90%;
+        height: auto;
+        /* background-color: #E9AB32; */
+        margin: auto;
+    }
+    .trending-row{
+        width: 100%;
+        margin: auto;
+        height: auto !important;
+     
+    
+    }
+    .trending-columnn{
+        width: 574px;
+    height: auto !important;
+    /* background-color: #6c1b1b; */
+    margin: auto;
+    margin-bottom: 50px;
+    
+    }.trending-heading-section{
+    width: 90%;
+    height: 140px;
+    /* background-color: #F6F6F6; */
+    padding-top: 40px;
+    margin: auto;
+    }
+    
+    .trending-main-head{
+        font-family: "Joti One";
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 26.68px;
+        color: #86868B;
+        text-align: center;
+        
+    
+    
+    }
+    
+    .trend-heading-sectionn{
+      width: 100%;
+      height: 90px;
+      /* background-color: #E9AB32; */
+    }
+    .trend-heading-sectionn p{
+        font-family: "Joti One";
+    font-size: 30px;
+    font-weight: 400;
+    color: #519A25;
+    line-height: 40.02px;
+    text-align: center;
+    
+    }
+    .trending-offer-head{
+        width: 134px;
+    
+          /* background-color: #181611; */
+          margin: auto;
+    }
+    .trending-offer-head p{
+        font-family: "Joti One";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26.68px;
+    text-align: center;
+    color: #E9AB32;
+    
+    }
+    .trending-img-section{
+        width: 100%;
+        /* background-color: aqua; */
+       /* height: 100vh; */
+        margin: auto;
+    }
+    .trend-image-banner{
+        width: 240px;
+        margin: auto;
+        overflow: hidden;
+        padding: 0px;
+        height: 261px;
+       /* background-color: #F2F2F2; */
+        
+    }
+    .trend-image-details{
+        width: 240px;
+        /* overflow: hidden; */
+        height: 70px;
+        /* background-color: blueviolet; */
+        padding-top: 12px;
+    }
+    .trending-imgs{
+        width: 260px;
+        height: 341px;
+          margin: auto;
+        /* background-color: #a3a3ba; */
+      
+        
+    }
+    .trend-image-details p{
+        width: 90%;
+    /* height: 20px; */
+    font-family: "Lato";
+    /* background-color: #519A25; */
+    font-size: 18px;
+    padding: 0px !important;
+    margin: 0px !important;
+    /* padding-top: 10px; */
+    font-weight: 300;
+    line-height: 21.6px;
+    color: #1D1D1F;
+    text-align: left;
+    
+    }
+    .btn-order{
+        width: 120px;
+    height: 25px;
+    margin-top: 5px !important;
+    padding-top: 0px !important;
+    background-color:#1D1D1F ;
+    text-align: center;
+    
+    }
+    .btn-order a{
+        font-family: "Lato";
+        text-decoration: none;
+        color: white;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align: center !important;
+    
+    }
+    .paragraph-trend{
+        /* background-color: #519A25; */
+        padding-left: 0px !important;
+        padding-top: 20px;
+    
+    
+    }
+    
+    .para-section{
+    
+            width: 239px !important;
+            height: auto !important;
+            margin: auto;
+            /* background-color: #519A25; */
+        
+    
+    /* background-color: #519A25; */
+    }
+    .para-section p{
+        font-family: "Lato";
+        color: #86868B;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    letter-spacing: 0.05em;
+    text-align: center;
+    
+    }
+    
+    
+    .image-trend {
+        height: auto !important;
+    }
+    
+    
+    #back-to-top {
+    display: none;
+      }
+    
+
+
+      #top-selling-id-body{
+        height: auto !important;
+        /* background-color: #519A25; */
+      }
+
+      .top-selling-main-body{
+        height: auto !important;
+      }
+    
+    }
+/* ..........................................footer............................................... */
+
+
+.footer-main {
+    width: 100%;
+    height: 405px;
+    background-color: rgba(255, 244, 222, 1);
+    padding: 20px 60px 20px 114px !important;
+}
+
+.footer-main a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-left p {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    width: 267px;
+    padding-left: 20px;
+    letter-spacing: 1.2px;
+}
+
+.footer-icon {
+    padding: 10px 15px 14px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    transition: .2s;
+}
+
+.footer-icon:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.footer-icon img {
+    width: 18px;
+}
+
+.footer-center {
+    padding-top: 55px;
+}
+
+.footer-center h3 {
+    padding-bottom: 10px;
+    color: rgba(233, 171, 50, 1);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-center a {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    transition: 0.2s; /* Smooth transition for text color change */
+}
+.footer-center span{
+    transition: .3s;
+}
+.footer-center a:hover span{
+    margin-right: 5px !important;
+}
+.footer-right{
+    padding-top: 55px;
+}
+.footer-right h3{
+    padding-bottom: 10px;
+    color: rgba(233, 171, 50, 1);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-details{
+    width: 300px;
+    /* height: 100px; */
+}
+.contact-details img{
+    width: 25px;
+}
+.contact-details p{
+    padding-left: 10px;
+    font-family: Lato;
+font-size: 16px;
+font-weight: 300;
+}
+.cpy-rght{
+    text-align: center;
+}
+.cpy-rght p{
+    font-family: "Lato";
+font-size: 14px;
+font-weight: 300;
+margin-top: 100px;
+
+}
+@media(min-width:300px) and (max-width:575px) {
+    
+.footer-main {
+    width: 100%;
+    height: auto;
+    background-color: rgba(255, 244, 222, 1);
+    padding: 10px 0px 20px 24px !important
+    ;
+    margin-top: 100px !important;
+}
+
+.footer-main a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-left p {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    width: 267px;
+    padding-left: 10px;
+    letter-spacing: 1.2px;
+}
+
+.footer-icon {
+    padding: 10px 15px 14px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    transition: .2s;
+}
+
+.footer-icon:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.footer-icon img {
+    width: 18px;
+}
+
+.footer-center {
+    padding-top: 55px;
+}
+
+.footer-center h3 {
+    padding-bottom: 10px;
+    color: rgba(233, 171, 50, 1);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-center a {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    transition: 0.2s; /* Smooth transition for text color change */
+}
+.footer-center span{
+    transition: .3s;
+}
+.footer-center a:hover span{
+    margin-right: 5px !important;
+}
+.footer-right{
+    padding-top: 55px;
+}
+.footer-right h3{
+    padding-bottom: 10px;
+    color: rgba(233, 171, 50, 1);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-details{
+    width: 300px;
+    /* height: 100px; */
+}
+.contact-details img{
+    width: 25px;
+}
+.contact-details p{
+    padding-left: 0px;
+    font-family: Lato;
+font-size: 16px;
+font-weight: 300;
+}
+.cpy-rght{
+    text-align: center;
+}
+.cpy-rght p{
+    font-family: "Lato";
+font-size: 14px;
+font-weight: 300;
+margin-top: 100px;
+
+}
+}
+@media(min-width:576px) and (max-width:768px) {
+    
+    .footer-main {
+        width: 100%;
+        height: auto;
+        background-color: rgba(255, 244, 222, 1);
+        padding: 10px 0px 20px 24px !important
+        ;
+        margin-top: 100px !important;
+    }
+    
+    .footer-main a {
+        text-decoration: none !important;
+        color: black !important;
+    }
+    
+    .footer-logo img {
+        width: 100px;
+    }
+    
+    .footer-left p {
+        font-family: "Lato", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        width: 267px;
+        padding-left: 10px;
+        letter-spacing: 1.2px;
+    }
+    
+    .footer-icon {
+        padding: 10px 15px 20px 15px;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        border-radius: 50%;
+        transition: .2s;
+    }
+    
+    .footer-icon:hover {
+        background-color: rgba(0, 0, 0, 0.15);
+    }
+    
+    .footer-icon img {
+        width: 18px;
+    }
+    
+    .footer-center {
+        padding-top: 55px;
+    }
+    
+    .footer-center h3 {
+        padding-bottom: 10px;
+        color: rgba(233, 171, 50, 1);
+        font-family: "Lato";
+        font-size: 16px;
+        font-weight: 400;
+    }
+    
+    .footer-center a {
+        font-family: "Lato";
+        font-size: 16px;
+        font-weight: 300;
+        transition: 0.2s; /* Smooth transition for text color change */
+    }
+    .footer-center span{
+        transition: .3s;
+    }
+    .footer-center a:hover span{
+        margin-right: 5px !important;
+    }
+    .footer-right{
+        padding-top: 55px;
+    }
+    .footer-right h3{
+        padding-bottom: 10px;
+        color: rgba(233, 171, 50, 1);
+        font-family: "Lato";
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .contact-details{
+        width: 300px;
+        /* height: 100px; */
+    }
+    .contact-details img{
+        width: 25px;
+    }
+    .contact-details p{
+        padding-left: 0px;
+        font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    }
+    .cpy-rght{
+        text-align: center;
+    }
+    .cpy-rght p{
+        font-family: "Lato";
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 100px;
+    
+    }
+    }
+/* ...........................................end................................................ */
+
+
+/* ..........................new/....................... */
+
+.newArraivals {
+    width: 100%;
+    padding: 20px 130px;
+    position: relative;
+}
+
+.newArraivals h3 {
+    font-family: "Joti One";
+    font-size: 30px;
+    text-align: center;
+    color: rgba(134, 134, 139, 1);
+}
+
+.prod-nav {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.prod-nav p {
+    font-family: "Lato";
+    font-size: 25px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.prod-nav .selected-category {
+    color:
+        rgba(233, 171, 50, 1) !important;
+}
+
+
+.product-list-main {
+    padding-top: 20px;
+
+}
+
+.product-list-main .prod-card {
+    width: 260px !important;
+    height: 500px;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.prod-img {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(141, 141, 141);
+    overflow: hidden;
+}
+
+.prod-img img {
+    width: 23rem;
+}
+
+.category {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(134, 134, 139, 1);
+    margin-bottom: 0 !important;
+}
+
+.item-name {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0 !important;
+}
+
+.navigation button {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.503);
+    border: none;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.prev-btn {
+    top: 50%;
+    left: 3%;
+}
+
+.next-btn {
+    top: 50%;
+    right: 3%;
+}
+
+.prod-card button {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    width: 120px;
+    height: 30px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    transition: .2s;
+}
+
+.prod-card button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media(min-width:300px) and (max-width:575px) {
+    .newArraivals {
+        padding: 20px 30px;
+    }
+
+    .newArraivals h3 {
+        font-size: 20px;
+    }
+
+    .prod-nav p {
+        font-size: 15px;
+    }
+}
+
+@media(min-width:576px) and (max-width:768px) {
+    .newArraivals {
+        padding: 20px 30px;
+    }
+
+    .newArraivals h3 {
+        font-size: 20px;
+    }
+
+    .prod-nav p {
+        font-size: 15px;
+}
+}

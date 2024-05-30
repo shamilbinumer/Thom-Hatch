@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+.footer-main {
+    width: 100%;
+    /* height: 405px; */
+    background-color: rgba(255, 244, 222, 1);
+    padding: 20px 60px 20px 114px !important;
+}
+
+a {
+    text-decoration: none !important;
+    color: black !important;
+}
+
+.footer-logo img {
+    width: 100px;
+}
+
+.footer-left p {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    width: 267px;
+    padding-left: 20px;
+    letter-spacing: 1.2px;
+}
+
+.footer-icon {
+    padding: 10px 15px 14px 15px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 50%;
+    transition: .2s;
+}
+
+.footer-icon:hover {
+    background-color: rgba(0, 0, 0, 0.15);
+}
+
+.footer-icon img {
+    width: 18px;
+}
+
+.footer-center {
+    padding-top: 55px;
+}
+
+.footer-center h3 {
+    padding-bottom: 10px;
+    color: rgba(233, 171, 50, 1);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer-center a {
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 300;
+    transition: 0.2s; /* Smooth transition for text color change */
+}
+.footer-center span{
+    transition: .3s;
+}
+.footer-center a:hover span{
+    margin-right: 5px !important;
+}
+.footer-right{
+    padding-top: 55px;
+}
+.footer-right h3{
+    padding-bottom: 10px;
+    color: rgba(233, 171, 50, 1);
+    font-family: Lato;
+    font-size: 16px;
+    font-weight: 400;
+}
+.contact-details{
+   display: flex;
+}
+.contact-details img{
+    width: 25px;
+}
+.contact-details p{
+    padding-left: 10px;
+    font-family: Lato;
+font-size: 16px;
+font-weight: 300;
+}
+.cpy-rght{
+    text-align: center;
+}
+.cpy-rght p{
+    font-family: Lato;
+font-size: 14px;
+font-weight: 300;
+margin-top: 100px;
+
+}
+@media(min-width:300px) and (max-width:575px){
+    .footer-main {
+        padding: 20px 60px 20px 60px !important;
+    }
+    .footer-left p {
+        padding-left: 0px;
+    }
+}
+@media(min-width:575px) and (max-width:768px){
+    .footer-main {
+        padding: 20px 60px 20px 60px !important;
+    }
+    .footer-left p {
+        padding-left: 0px;
+    }
+    .footer-center{
+        padding-left: 70px !important;
+    }
+}
+@media(min-width:768px) and (max-width:991px){
+    .footer-main {
+        padding: 20px 60px 20px 60px !important;
+    }
+    .footer-left p {
+        padding-left: 0px;
+    }
+    .footer-center{
+        padding-left: 70px !important;
+    }
+}

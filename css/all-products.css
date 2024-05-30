@@ -1,0 +1,593 @@
+/* -----------------------navbar----------------- */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Jersey+25&family=Jost:ital,wght@0,100..900;1,100..900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Jersey+25&family=Jost:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Jersey+25&family=Jost:ital,wght@0,100..900;1,100..900&family=Joti+One&family=Saira+Stencil+One&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Joti+One&family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* -----------------------navbar----------------- */
+.hero {
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(213, 240, 197, 1);
+    overflow: hidden;
+}
+
+.banner {
+    display: flex;
+   
+    /* background-color: red; */
+    /* height: 84vh; */
+}
+
+.banner-left,
+.anner-right {
+    width: 50%;
+    /* height: 100vh; */
+    padding-left: 80px;
+}
+
+.banner-left .brand-title {
+    /* height: 100vh; */
+    text-align: center;
+    padding-top: 10rem;
+}
+
+.banner-left .brand-title h1 {
+    font-family: Joti One;
+    font-size: 80px;
+}
+
+.banner-left .brand-title .titleDisc1 {
+    font-family: Joti One;
+    font-size: 25px;
+    color: rgba(81, 154, 37, 1);
+}
+
+.banner-left .brand-title .titleDisc2 {
+    font-family: Saira Stencil One;
+    font-size: 25px;
+    color: rgba(134, 134, 139, 1);
+    margin-top: 70px;
+
+}
+
+.banner-image {
+    /* background-color: red; */
+    height: 579px;
+    overflow: hidden;
+}
+
+.banner-right img {
+    width: 54.7rem;
+}
+
+@media(min-width:300px) and (max-width:576px) {
+    .hero {
+        height: 100vh !important;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-left {
+        width: 100%;
+        height: 270px !important;
+        padding-left: 0px;
+        /* background-color: red; */
+    }
+
+    .banner-right {
+        width: 100%;
+    }
+
+    .banner-left .brand-title h1 {
+        font-family: Joti One;
+        font-size: 50px;
+    }
+
+    .banner-left .brand-title {
+        padding-top: 1rem;
+    }
+
+    .banner-right img {
+        width: 30.3rem;
+    }
+    .banner-image{
+        height: auto;
+        padding-top: 47%;
+    }
+    /* .titleDisc2{
+        margin-top: 10px !important;
+    } */
+}
+@media(min-width:360px) and (max-width:390px){
+    .banner-image{
+        height: auto;
+        padding-top: 7% !important;
+    }
+}
+
+@media(min-width:577px) and (max-width:768px) {
+    .hero {
+        height: auto !important;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner-left {
+        width: 100%;
+        height: 270px !important;
+        padding-left: 0px;
+        /* background-color: red; */
+    }
+
+    .banner-right {
+        width: 100%;
+    }
+
+    .banner-left .brand-title h1 {
+        font-family: Joti One;
+        font-size: 50px;
+    }
+
+    .titleDisc2 {
+        margin-top: 10px !important;
+    }
+
+    .banner-left .brand-title {
+        padding-top: 0rem;
+    }
+
+    .banner-right {
+        text-align: center;
+    }
+
+    .banner-right img {
+        width: 28.3rem;
+    }
+}
+
+@media(min-width:769px) and (max-width:991px) {
+    .hero {
+        height: auto !important;
+    }
+
+    .banner {
+        flex-direction: row;
+    }
+
+    .banner-left {
+        height: 270px !important;
+        padding-left: 40px;
+        /* background-color: red; */
+    }
+
+
+    .banner-left .brand-title h1 {
+        font-family: Joti One;
+        font-size: 50px;
+    }
+
+    .banner-left .brand-title {
+        padding-top: 1rem;
+    }
+
+    .banner-right {
+        text-align: center;
+    }
+
+    .titleDisc2 {
+        margin-top: 10px !important;
+    }
+
+    .banner-right img {
+        width: 28.3rem;
+    }
+}
+
+/* -------------------------------new-arraivals---------------------- */
+.newArraivals {
+    width: 100%;
+    padding: 20px 130px;
+    position: relative;
+}
+
+.newArraivals h3 {
+    font-family: Joti One;
+    font-size: 30px;
+    text-align: center;
+    color: rgba(134, 134, 139, 1);
+}
+
+.prod-nav {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.prod-nav p {
+    font-family: Lato;
+    font-size: 25px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.prod-nav .selected-category {
+    color:
+        rgba(233, 171, 50, 1) !important;
+}
+
+
+.product-list-main {
+    padding-top: 20px;
+
+}
+
+.product-list-main .prod-card {
+    width: 290px;
+    height: 500px;
+    margin: auto;
+    /* background-color: red; */
+}
+
+.prod-img {
+    width: 100%;
+    height: 400px;
+    background-color: rgb(141, 141, 141);
+    overflow: hidden;
+}
+
+.prod-img img {
+    width: 23rem;
+}
+
+.category {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+    color: rgba(134, 134, 139, 1);
+    margin-bottom: 0 !important;
+}
+
+.item-name {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+    margin-bottom: 0 !important;
+}
+
+.navigation button {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.503);
+    border: none;
+    padding: 5px 20px 5px 20px;
+    color: white;
+    border-radius: 50%;
+    font-size: 25px;
+}
+
+.prev-btn {
+    top: 50%;
+    left: 3%;
+}
+
+.next-btn {
+    top: 50%;
+    right: 3%;
+}
+
+.prod-card button {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    width: 120px;
+    height: 30px;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 300;
+    transition: .2s;
+}
+
+.prod-card button:hover {
+    background-color: white;
+    color: black;
+}
+
+@media(min-width:300px) and (max-width:575px) {
+    .newArraivals {
+        padding: 20px 30px !important;
+    }
+
+    .newArraivals h3 {
+        font-size: 20px;
+    }
+
+    .prod-nav p {
+        font-size: 15px;
+    }
+}
+
+@media(min-width:576px) and (max-width:768px) {
+    .newArraivals {
+        padding: 20px 30px;
+    }
+
+    .newArraivals h3 {
+        font-size: 20px;
+    }
+
+    .prod-nav p {
+        font-size: 15px;
+    }
+}
+@media(min-width:768px) and (max-width:991px) {
+    .newArraivals {
+        padding: 20px 30px;
+    }
+
+    .newArraivals h3 {
+        font-size: 20px;
+    }
+
+    .prod-nav p {
+        font-size: 15px;
+    }
+}
+
+/* -------------------------------new-arraivals---------------------- */
+/* ---------------------------------trending-offer-------------------- */
+.trending-offer-main {
+    width: 100%;
+    padding: 30px 130px 80px 130px;
+    background-color: #F2F2F2;
+}
+
+.trendingoffer-heading {
+    font-family: Joti One;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+    color: rgba(81, 154, 37, 1);
+}
+
+.trending-offer-content {
+    width: 100%;
+    display: flex;
+    gap: 40px;
+    /* height: 500px; */
+    /* background-color: red; */
+}
+
+.trending-offer-left,
+.trending-offer-right {
+    margin-top: 80px;
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    height: 500px;
+    padding: 25px;
+}
+
+.trending-offer-left h3 {
+    font-family: Joti One;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 40px;
+    color: rgb(141, 141, 141);
+}
+
+.trending-offer-left .upto-ofr {
+    font-family: Joti One;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #E9AB32;
+    padding-top: 20px;
+}
+
+.offercard {
+    width: 240px;
+    margin: auto;
+}
+
+.offer-card-img img {
+    width: 23rem;
+}
+
+.offer-card-img {
+    width: 240px;
+    height: 261px;
+    /* background-color: green; */
+    overflow: hidden;
+}
+
+.offercard p {
+    font-family: Lato;
+    font-size: 18px;
+    margin-bottom: 0 !important;
+    font-weight: 300;
+}
+
+.offercard button {
+    width: 120px;
+    height: 25px;
+    background-color: black;
+    color: white;
+    font-family: Lato;
+    font-size: 15px;
+    font-weight: 300;
+    border: 1px solid black;
+    margin-top: 5px;
+}
+
+.trending-offer-right p {
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300;
+    color: #86868B;
+    text-align: center;
+    padding-top: 50%;
+    order: 1;
+}
+
+.trending-offer-right img {
+    width: 19.4rem;
+    order: 2;
+}
+
+@media(min-width:300px) and (max-width:575px) {
+    .trending-offer-main {
+        padding: 30px 30px 80px 30px;
+    }
+
+    .trending-offer-content {
+        flex-direction: column;
+    }
+
+    .trending-offer-left,
+    .trending-offer-right {
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .offercard {
+        margin-bottom: 20px;
+    }
+
+    .trending-offer-right p {
+        padding-top: 2%;
+        order: 2 !important;
+    }
+
+    .ofer-img {
+        text-align: center;
+    }
+}
+
+@media(min-width:576px) and (max-width:768px) {
+    .trending-offer-main {
+        padding: 30px 30px 80px 30px;
+    }
+
+    .trending-offer-content {
+        flex-direction: column;
+    }
+
+    .trending-offer-left,
+    .trending-offer-right {
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .offercard {
+        margin-bottom: 20px;
+    }
+
+    .trending-offer-right p {
+        padding-top: 50%;
+        order: 2 !important;
+    }
+
+    .ofer-img {
+        text-align: center;
+    }
+}
+
+@media(min-width:769px) and (max-width:1000px) {
+    .trending-offer-main {
+        padding: 30px 30px 80px 30px;
+    }
+
+    .trending-offer-content {
+        flex-direction: column;
+    }
+
+    .trending-offer-left,
+    .trending-offer-right {
+        margin-top: 10px;
+        width: 100%;
+        height: auto;
+    }
+
+    .offercard {
+        margin-bottom: 20px;
+    }
+
+    .trending-offer-right p {
+        padding-top: 50%;
+        order: 2 !important;
+    }
+
+    .ofer-img {
+        text-align: center;
+    }
+}
+
+/* ---------------------------------trending-offer-------------------- */
+/* ---------------------------top-selling--------------------- */
+.top-selling-main {
+    width: 100%;
+    padding: 40px 130px 70px 130px;
+}
+
+.top-selling-main h3 {
+    font-family: Joti One;
+    font-size: 30px;
+    font-weight: 400;
+    color: #86868B;
+    text-align: center;
+}
+.top-selling-card{
+    width: 90%;
+    margin: auto !important;
+}
+.top-sell-prod-img{
+    width: 283px;
+    height: 400px;
+    overflow: hidden;
+}
+.top-selling-card img{
+    width: 20rem;
+}
+.top-selling-card p{
+    font-family: Lato;
+font-size: 20px;
+font-weight: 300;
+color: #E9AB32;
+margin-bottom: 0 !important
+
+}
+.top-selling-card h6{
+    font-family: Lato;
+font-size: 20px;
+font-weight: 300;
+margin-top: 5px;
+}
+.top-selling-card button{
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    width: 120px;
+height: 30px;
+font-family: Lato;
+font-size: 18px;
+font-weight: 300;
+}
+@media(max-width:900px){
+    .top-selling-main {
+        padding: 40px 30px 70px 30px;
+    }
+}
+/* ---------------------------top-selling--------------------- */
